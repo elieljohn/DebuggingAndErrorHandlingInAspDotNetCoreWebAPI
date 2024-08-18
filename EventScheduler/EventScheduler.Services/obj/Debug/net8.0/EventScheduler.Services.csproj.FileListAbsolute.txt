@@ -1,0 +1,16 @@
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Services.deps.json
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Services.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Services.pdb
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Data.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Data.pdb
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.csproj.AssemblyReference.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.AssemblyInfoInputs.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.AssemblyInfo.cs
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.csproj.CoreCompileInputs.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.sourcelink.json
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventSch.8398E7EA.Up2Date
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\refint\EventScheduler.Services.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.pdb
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\ref\EventScheduler.Services.dll
