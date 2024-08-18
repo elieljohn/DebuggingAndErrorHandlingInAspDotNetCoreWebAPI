@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventScheduler</name>
+    </assembly>
+    <members>
+        <member name="M:EventScheduler.Controllers.AuthenticationController.Token(EventScheduler.Model.Auth.LoginModel)">
+            <summary>
+            Get an authentication token to use for calling the endpoints
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/authentication/token
+                {        
+                  "username": "john",
+                  "password": "John@123#"   
+                }
+            Sample Response:
+            
+                {        
+                  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+                  "expiration": "2022/08/23 12:03:03"   
+                }
+            </remarks>
+            <response code="200">Authentication Token and Expiration Time</response>
+            <response code="401">If crednetials are wrong</response>  
+        </member>
+        <member name="T:EventScheduler.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:EventScheduler.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:EventScheduler.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

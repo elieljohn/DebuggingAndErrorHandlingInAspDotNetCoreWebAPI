@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "EventScheduler\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Controllers\\AuthenticationController.cs*",
+              "RelativeToolTip": "EventScheduler\\Controllers\\AuthenticationController.cs*",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:32:35.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs",
               "RelativeDocumentMoniker": "EventScheduler\\Program.cs",
-              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs*",
-              "RelativeToolTip": "EventScheduler\\Program.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwCIAAAAkAAAA",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs",
+              "RelativeToolTip": "EventScheduler\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwC8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T17:13:51.622Z",
               "EditorCaption": ""
