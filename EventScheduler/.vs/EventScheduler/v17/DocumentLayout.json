@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +30,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "EventScheduler\\appsettings.Production.json",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\appsettings.Production.json",
+              "RelativeToolTip": "EventScheduler\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T15:23:29.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\appsettings.json",
+              "RelativeDocumentMoniker": "EventScheduler\\appsettings.json",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\appsettings.json",
+              "RelativeToolTip": "EventScheduler\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T15:22:46.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs",
               "RelativeDocumentMoniker": "EventScheduler\\Program.cs",
-              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs*",
-              "RelativeToolTip": "EventScheduler\\Program.cs*",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAAEYAAAAHAAAA",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs",
+              "RelativeToolTip": "EventScheduler\\Program.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T15:45:11.402Z",
               "EditorCaption": ""
