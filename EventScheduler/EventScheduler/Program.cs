@@ -1,6 +1,7 @@
 using EventScheduler.Config;
 using EventScheduler.Data;
 using EventScheduler.Data.Model;
+using EventScheduler.Filters;
 using EventScheduler.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -93,7 +94,10 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]))
     };
 });
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ExternalDependencyExceptionFilter>();
+});
 
 var app = builder.Build();
 

@@ -1,10 +1,12 @@
 ﻿using EventScheduler.Data;
+using EventScheduler.Services.Exceptions;
 using EventScheduler.Services.Model.Event;
 using EventScheduler.Services.Model.Participant;
 using EventScheduler.Services.Model.Speaker;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -157,6 +159,17 @@ namespace EventScheduler.Services.Services
             _db.SaveChanges();
         }
 
-
+        public IEnumerable<object> GetExternalEvents(string userId)
+        {
+            //For demo purposes only.
+            //This method gets a list of events from google calendar. Here we would call the google api and
+            //For deom purposes we are only going to throw the error to demonstrate the error
+            throw new ExternalDependencyException(HttpStatusCode.FailedDependency, new
+            {
+                Detail="Failed Dependency",
+                Status= (int)HttpStatusCode.FailedDependency,
+                Type="http://errorcodes.com/failedependency"
+            });
+        }
     }
 }

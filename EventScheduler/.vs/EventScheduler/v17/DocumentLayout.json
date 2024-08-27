@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\controllers\\errorhandlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\controllers\\errorhandlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D805429B-885A-4C52-8D63-444B936F04C8}|EventScheduler.Services\\EventScheduler.Services.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler.services\\services\\ieventdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D805429B-885A-4C52-8D63-444B936F04C8}|EventScheduler.Services\\EventScheduler.Services.csproj|solutionrelative:eventscheduler.services\\services\\ieventdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D805429B-885A-4C52-8D63-444B936F04C8}|EventScheduler.Services\\EventScheduler.Services.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler.services\\exceptions\\externaldependencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D805429B-885A-4C52-8D63-444B936F04C8}|EventScheduler.Services\\EventScheduler.Services.csproj|solutionrelative:eventscheduler.services\\exceptions\\externaldependencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|c:\\github\\ej\\aspdotnetcore\\debugginganderrorhandlinginaspdotnetcorewebapi\\eventscheduler\\eventscheduler\\filters\\externaldependencyexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F906BF18-2524-4CE1-A64E-FA7F39605045}|EventScheduler\\EventScheduler.csproj|solutionrelative:eventscheduler\\filters\\externaldependencyexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorHandlerController.cs",
-              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Controllers\\ErrorHandlerController.cs",
-              "RelativeDocumentMoniker": "EventScheduler\\Controllers\\ErrorHandlerController.cs",
-              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Controllers\\ErrorHandlerController.cs*",
-              "RelativeToolTip": "EventScheduler\\Controllers\\ErrorHandlerController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "DocumentIndex": 3,
+              "Title": "ExternalDependencyExceptionFilter.cs",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Filters\\ExternalDependencyExceptionFilter.cs",
+              "RelativeDocumentMoniker": "EventScheduler\\Filters\\ExternalDependencyExceptionFilter.cs",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Filters\\ExternalDependencyExceptionFilter.cs",
+              "RelativeToolTip": "EventScheduler\\Filters\\ExternalDependencyExceptionFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T17:19:59.296Z",
+              "WhenOpened": "2024-08-27T16:33:00.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExternalDependencyException.cs",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler.Services\\Exceptions\\ExternalDependencyException.cs",
+              "RelativeDocumentMoniker": "EventScheduler.Services\\Exceptions\\ExternalDependencyException.cs",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler.Services\\Exceptions\\ExternalDependencyException.cs",
+              "RelativeToolTip": "EventScheduler.Services\\Exceptions\\ExternalDependencyException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:27:04.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IEventDataService.cs",
+              "DocumentMoniker": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler.Services\\Services\\IEventDataService.cs",
+              "RelativeDocumentMoniker": "EventScheduler.Services\\Services\\IEventDataService.cs",
+              "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler.Services\\Services\\IEventDataService.cs*",
+              "RelativeToolTip": "EventScheduler.Services\\Services\\IEventDataService.cs*",
+              "ViewState": "AQIAAE8AAAAAAAAAAIA6wKoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:21:44.468Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +79,7 @@
               "RelativeDocumentMoniker": "EventScheduler\\Program.cs",
               "ToolTip": "C:\\GitHub\\EJ\\AspDotNetCore\\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\\EventScheduler\\EventScheduler\\Program.cs",
               "RelativeToolTip": "EventScheduler\\Program.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAwHEAAAAXAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwGkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T15:45:11.402Z",
               "EditorCaption": ""
