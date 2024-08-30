@@ -2,9 +2,11 @@ using EventScheduler.Config;
 using EventScheduler.Data;
 using EventScheduler.Data.Model;
 using EventScheduler.Filters;
+using EventScheduler.Problems;
 using EventScheduler.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -71,7 +73,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
-
+builder.Services.AddTransient<ProblemDetailsFactory, SampleProblemsFactory>();
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
 {
