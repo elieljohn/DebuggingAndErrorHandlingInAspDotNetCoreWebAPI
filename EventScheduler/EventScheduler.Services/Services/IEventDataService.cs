@@ -165,7 +165,7 @@ namespace EventScheduler.Services.Services
             //For demo purposes only.
             //This method gets a list of events from google calendar. Here we would call the google api and if something goes wrong we return an exception
             //For deom purposes we are only going to throw the error to demonstrate the error
-            throw new DefaultEventSchedulerException
+            throw new DefaultEventSchedulerExceptionTwo
             {
                 ErrorCode = 10,
                 HttpStatusCode = HttpStatusCode.FailedDependency,
