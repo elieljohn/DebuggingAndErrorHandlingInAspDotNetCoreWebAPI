@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EventScheduler.Common\EventScheduler.Common.csproj" />
     <ProjectReference Include="..\EventScheduler.Data\EventScheduler.Data.csproj" />
   </ItemGroup>
 </Project>

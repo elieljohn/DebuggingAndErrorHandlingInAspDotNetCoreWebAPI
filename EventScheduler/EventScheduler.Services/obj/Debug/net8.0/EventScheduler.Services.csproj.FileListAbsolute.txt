@@ -14,3 +14,5 @@ C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventS
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\refint\EventScheduler.Services.dll
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\EventScheduler.Services.pdb
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\obj\Debug\net8.0\ref\EventScheduler.Services.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Common.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Services\bin\Debug\net8.0\EventScheduler.Common.pdb

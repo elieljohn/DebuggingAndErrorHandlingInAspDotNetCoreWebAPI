@@ -1,0 +1,13 @@
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\bin\Debug\net8.0\EventScheduler.Common.deps.json
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\bin\Debug\net8.0\EventScheduler.Common.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\bin\Debug\net8.0\EventScheduler.Common.pdb
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.csproj.AssemblyReference.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.AssemblyInfoInputs.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.AssemblyInfo.cs
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.csproj.CoreCompileInputs.cache
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.sourcelink.json
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\refint\EventScheduler.Common.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\EventScheduler.Common.pdb
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler.Common\obj\Debug\net8.0\ref\EventScheduler.Common.dll

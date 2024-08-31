@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Diagnostics;
+﻿using EventScheduler.Common.Exceptions;
+using Microsoft.AspNetCore.Diagnostics;
 using Newtonsoft.Json;
 using System.Net;
 
@@ -15,13 +16,25 @@ namespace EventScheduler.Problems
                     context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                     context.Response.ContentType = "application/json";
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+
                     if (contextFeature != null)
                     {
-                        await context.Response.WriteAsync(JsonConvert.SerializeObject(new
+                        if(contextFeature.Error is IEventSchedulerException exception)
                         {
-                            StatusCode = context.Response.StatusCode,
-                            Message = "Something went wrong"
-                        }));
+                            if (exception.HttpStatusCode.HasValue)
+                            {
+                                context.Response.StatusCode = (int)exception.HttpStatusCode.Value;
+                            }
+                            await context.Response.WriteAsync(exception.ToJson());
+                        }
+                        else
+                        {
+                            await context.Response.WriteAsync(JsonConvert.SerializeObject(new
+                            {
+                                StatusCode = context.Response.StatusCode,
+                                Message = "Something went wrong"
+                            }));
+                        }
                     }
                 });
             });

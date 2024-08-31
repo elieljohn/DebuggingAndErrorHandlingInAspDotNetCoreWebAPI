@@ -153,3 +153,5 @@ C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventS
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler\obj\Debug\net8.0\EventScheduler.xml
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler\bin\Debug\net8.0\appsettings.Production.json
 C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler\bin\Debug\net8.0\EventScheduler.Common.dll
+C:\GitHub\EJ\AspDotNetCore\DebuggingAndErrorHandlingInAspDotNetCoreWebAPI\EventScheduler\EventScheduler\bin\Debug\net8.0\EventScheduler.Common.pdb
