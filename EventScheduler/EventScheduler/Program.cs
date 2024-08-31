@@ -5,12 +5,14 @@ using EventScheduler.Filters;
 using EventScheduler.Problems;
 using EventScheduler.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using System.Net;
 using System.Reflection;
 using System.Text;
 
@@ -120,7 +122,7 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseExceptionHandler("/errorhandler/error");
+    app.AddErrorHandler();
 }
 
 app.UseHttpsRedirection();
