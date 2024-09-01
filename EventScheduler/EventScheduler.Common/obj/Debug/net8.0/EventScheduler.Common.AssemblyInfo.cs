@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventScheduler.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f249542c973a80aec0179fda6d09168027ac2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b8ba82b1afad7a1460558873cb79e8df034494c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventScheduler.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventScheduler.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

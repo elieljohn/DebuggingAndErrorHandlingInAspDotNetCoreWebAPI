@@ -1,3 +1,4 @@
+using EventScheduler.Common.Exceptions;
 using EventScheduler.Config;
 using EventScheduler.Data;
 using EventScheduler.Data.Model;
@@ -76,6 +77,8 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 builder.Services.AddTransient<ProblemDetailsFactory, SampleProblemsFactory>();
+builder.Services.AddLogging();
+
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -122,7 +125,7 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.AddErrorHandler();
+    app.AddErrorHandler(app.Services.GetService<ILogger<IEventSchedulerException>>());
 }
 
 app.UseHttpsRedirection();

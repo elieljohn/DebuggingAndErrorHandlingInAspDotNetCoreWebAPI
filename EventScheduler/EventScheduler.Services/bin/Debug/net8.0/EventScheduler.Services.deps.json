@@ -919,6 +919,7 @@
       },
       "EventScheduler.Common/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {

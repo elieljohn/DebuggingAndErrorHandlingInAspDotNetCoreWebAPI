@@ -7,7 +7,7 @@ namespace EventScheduler.Problems
 {
     public static class BuildInExceptionHandler
     {
-        public static void AddErrorHandler(this IApplicationBuilder app)
+        public static void AddErrorHandler(this IApplicationBuilder app, ILogger<IEventSchedulerException> logger)
         {
             app.UseExceptionHandler(appError =>
             {
@@ -26,6 +26,7 @@ namespace EventScheduler.Problems
                                 context.Response.StatusCode = (int)exception.HttpStatusCode.Value;
                             }
                             await context.Response.WriteAsync(exception.ToJson());
+                            logger?.LogError(exception.EventId, contextFeature.Error, exception.Message);
                         }
                         else
                         {
@@ -34,6 +35,7 @@ namespace EventScheduler.Problems
                                 StatusCode = context.Response.StatusCode,
                                 Message = "Something went wrong"
                             }));
+                            logger.LogError(new EventId(0, "UnknownError"), contextFeature.Error, contextFeature.Error.Message);
                         }
                     }
                 });
