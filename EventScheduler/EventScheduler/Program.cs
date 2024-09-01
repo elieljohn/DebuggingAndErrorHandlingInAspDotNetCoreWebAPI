@@ -125,7 +125,8 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.AddErrorHandler(app.Services.GetService<ILogger<IEventSchedulerException>>());
+    //app.AddErrorHandler(app.Services.GetService<ILogger<IEventSchedulerException>>());
+    app.UseMiddleware<CustomErrorMiddleWare>();
 }
 
 app.UseHttpsRedirection();
